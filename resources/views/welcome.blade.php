@@ -18,7 +18,7 @@
     <body class="">
 
 
-        <nav class="bg-white border-gray-200 dark:bg-gray-900 h-[20vh]">
+        <nav class="bg-white border-gray-200 dark:bg-gray-900 h-[20vh] relative z-40">
             <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                     <i class="fa-solid fa-pen-nib text-white text-2xl"></i>
@@ -40,7 +40,7 @@
                         @auth
                             <li>
                                 <a href="{{ route('notes.index') }}"
-                                    class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Dashboard
+                                    class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Notes
                                 </a>
                             </li>
                         @else
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </nav>
-        <section class="bg-white dark:bg-gray-900  h-[80vh] flex justify-center items-center">
+        <section class="bg-white dark:bg-gray-900  h-[100vh] flex justify-center items-center absolute inset-0">
             <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
 
                 <h1

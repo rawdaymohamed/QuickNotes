@@ -1,0 +1,31 @@
+<x-app-layout>
+    <x-slot name="header">
+        <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
+            Notes
+        </h2>
+    </x-slot>
+
+    <div class="py-12">
+        <div class="max-w-2xl mx-auto sm:p-6 lg:p-8 ">
+
+            <div class="py-6 text-2xl text-gray-900 dark:text-gray-100">
+                New Note
+            </div>
+            <form action="{{ route('notes.store') }}" method="post" class="max-w-3xl flex flex-col gap-5">
+                @csrf
+                <x-text-input name="title" class="w-full" placeholder="Note title"
+                    value="{{ @old('title') }}"></x-text-input>
+                @error('title')
+                    <div class="mt-1 text-sm text-red-500">{{ $message }}</div>
+                @enderror
+                <x-text-area name="text" class="w-full" placeholder="Type your note"
+                    rows="8">{{ @old('text') }}</x-text-area>
+                @error('text')
+                    <div class="mt-1 text-sm text-red-500">{{ $message }}</div>
+                @enderror
+                <x-primary-button>Save Note</x-primary-button>
+            </form>
+
+        </div>
+    </div>
+</x-app-layout>
