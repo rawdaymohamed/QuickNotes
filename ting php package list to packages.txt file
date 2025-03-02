@@ -1,0 +1,21 @@
+[0;1;32m●[0m apache2.service - The Apache HTTP Server
+     Loaded: loaded (]8;;file://rawda/usr/lib/systemd/system/apache2.service/usr/lib/systemd/system/apache2.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Sun 2025-03-02 13:34:36 EET; 14s ago
+       Docs: ]8;;https://httpd.apache.org/docs/2.4/https://httpd.apache.org/docs/2.4/]8;;
+    Process: 1985081 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+   Main PID: 1985084 (apache2)
+      Tasks: 6 (limit: 13997)
+     Memory: 15.3M (peak: 15.6M)
+        CPU: 111ms
+     CGroup: /system.slice/apache2.service
+             ├─[0;38;5;245m1985084 /usr/sbin/apache2 -k start[0m
+             ├─[0;38;5;245m1985091 /usr/sbin/apache2 -k start[0m
+             ├─[0;38;5;245m1985092 /usr/sbin/apache2 -k start[0m
+             ├─[0;38;5;245m1985093 /usr/sbin/apache2 -k start[0m
+             ├─[0;38;5;245m1985094 /usr/sbin/apache2 -k start[0m
+             └─[0;38;5;245m1985095 /usr/sbin/apache2 -k start[0m
+
+Mar 02 13:34:36 rawda systemd[1]: Starting apache2.service - The Apache HTTP Server...
+Mar 02 13:34:36 rawda apachectl[1985083]: [Sun Mar 02 13:34:36.535573 2025] [so:warn] [pid 1985083] AH01574: module php_module is already loaded, skipping
+Mar 02 13:34:36 rawda apachectl[1985083]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+Mar 02 13:34:36 rawda systemd[1]: Started apache2.service - The Apache HTTP Server.

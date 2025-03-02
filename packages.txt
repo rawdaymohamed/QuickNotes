@@ -1,0 +1,81 @@
+ii  libapache2-mod-php                               2:8.3+95+ubuntu24.04.1+deb.sury.org+1     all          server-side, HTML-embedded scripting language (Apache 2 module) (default)
+ii  libapache2-mod-php8.0                            1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        server-side, HTML-embedded scripting language (Apache 2 module)
+ii  libapache2-mod-php8.3                            8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        server-side, HTML-embedded scripting language (Apache 2 module)
+ii  php-bz2                                          2:8.3+95+ubuntu24.04.1+deb.sury.org+1     all          bzip2 module for PHP [default]
+ii  php-cli                                          2:8.3+95+ubuntu24.04.1+deb.sury.org+1     all          command-line interpreter for the PHP scripting language (default)
+ii  php-common                                       2:95+ubuntu24.04.1+deb.sury.org+1         all          Common files for PHP packages
+ii  php-composer-ca-bundle                           1.4.1-1                                   all          utility library to find a path to the system CA bundle
+ii  php-curl                                         2:8.3+95+ubuntu24.04.1+deb.sury.org+1     all          CURL module for PHP [default]
+ii  php-fig-http-message-util                        1.1.5-2                                   all          Utility classes and constants to facilitate using PSR-7
+ii  php-gd                                           2:8.3+95+ubuntu24.04.1+deb.sury.org+1     all          GD module for PHP [default]
+ii  php-getallheaders                                3.0.3-3                                   all          A polyfill for getallheaders
+ii  php-google-recaptcha                             1.3.0-1                                   all          reCAPTCHA PHP client library
+ii  php-intl                                         2:8.3+95+ubuntu24.04.1+deb.sury.org+1     all          Internationalisation module for PHP [default]
+ii  php-mariadb-mysql-kbs                            1.2.14-1                                  all          Knowledge base about MariaDB and MySQL server variables
+ii  php-mbstring                                     2:8.3+95+ubuntu24.04.1+deb.sury.org+1     all          MBSTRING module for PHP [default]
+ii  php-mcrypt                                       3:1.0.5-4ubuntu1                          amd64        PHP bindings for the libmcrypt library
+ii  php-mysql                                        2:8.3+95+ubuntu24.04.1+deb.sury.org+1     all          MySQL module for PHP [default]
+ii  php-nikic-fast-route                             1.3.0-4                                   all          Fast request router for PHP
+ii  php-phpmyadmin-motranslator                      5.3.1-1                                   all          translation API for PHP using Gettext MO files
+ii  php-phpmyadmin-shapefile                         3.0.2-1                                   all          ESRI ShapeFile library for PHP
+ii  php-phpmyadmin-sql-parser                        5.8.2-1                                   all          validating SQL lexer and parser
+ii  php-psr-cache                                    3.0.0-4                                   all          Common interface for caching libraries
+ii  php-psr-container                                2.0.2-1                                   all          Common Container Interface (PHP FIG PSR-11)
+ii  php-psr-http-factory                             1.0.2-1                                   all          Common interfaces for PSR-7 HTTP message factories
+ii  php-psr-http-message                             1.1-2                                     all          Common interface for HTTP messages
+ii  php-psr-log                                      3.0.0-1                                   all          common interface for logging libraries
+ii  php-slim-psr7                                    1.6.1-1                                   all          Strict PSR-7 implementation used by the Slim Framework
+ii  php-sqlite3                                      2:8.3+95+ubuntu24.04.1+deb.sury.org+1     all          SQLite3 module for PHP [default]
+ii  php-symfony-cache                                6.4.5+dfsg-3ubuntu3                       all          provides extended PSR-6, PSR-16 (and tags) implementations
+ii  php-symfony-cache-contracts                      3.4.1-4                                   all          Generic abstractions related to caching
+ii  php-symfony-config                               6.4.5+dfsg-3ubuntu3                       all          load configurations from different data sources
+ii  php-symfony-dependency-injection                 6.4.5+dfsg-3ubuntu3                       all          standardize and centralize construction of objects
+ii  php-symfony-deprecation-contracts                3.4.1-4                                   all          A generic function and convention to trigger deprecation notices
+ii  php-symfony-expression-language                  6.4.5+dfsg-3ubuntu3                       all          compile and evaluate expressions
+ii  php-symfony-filesystem                           6.4.5+dfsg-3ubuntu3                       all          basic filesystem utilities
+ii  php-symfony-polyfill-php80                       1.28.0-1                                  all          Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions
+ii  php-symfony-service-contracts                    3.4.1-4                                   all          Generic abstractions related to writing services
+ii  php-symfony-var-exporter                         6.4.5+dfsg-3ubuntu3                       all          export serializable PHP data structure to plain PHP code
+ii  php-tcpdf                                        6.7.5+dfsg-1                              all          PHP class for generating PDF files on-the-fly
+ii  php-twig                                         3.8.0-2                                   all          Flexible, fast, and secure template engine for PHP
+ii  php-twig-i18n-extension                          4.1.0-1                                   all          i18n extension for the Twig template system
+ii  php-webmozart-assert                             1.11.0-1                                  all          Assertions to validate method input/output with nice error messages
+ii  php-xml                                          2:8.3+95+ubuntu24.04.1+deb.sury.org+1     all          DOM, SimpleXML, WDDX, XML, and XSL module for PHP [default]
+ii  php-zip                                          2:8.3+95+ubuntu24.04.1+deb.sury.org+1     all          Zip module for PHP [default]
+ii  php8.0                                           1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  all          server-side, HTML-embedded scripting language (metapackage)
+ii  php8.0-bcmath                                    1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        Bcmath module for PHP
+ii  php8.0-cli                                       1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        command-line interpreter for the PHP scripting language
+ii  php8.0-common                                    1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        documentation, examples and common module for PHP
+ii  php8.0-curl                                      1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        CURL module for PHP
+ii  php8.0-fpm                                       1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        server-side, HTML-embedded scripting language (FPM-CGI binary)
+ii  php8.0-gd                                        1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        GD module for PHP
+ii  php8.0-intl                                      1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        Internationalisation module for PHP
+ii  php8.0-mbstring                                  1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        MBSTRING module for PHP
+ii  php8.0-mysql                                     1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        MySQL module for PHP
+ii  php8.0-opcache                                   1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        Zend OpCache module for PHP
+ii  php8.0-readline                                  1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        readline module for PHP
+ii  php8.0-xml                                       1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        DOM, SimpleXML, XML, and XSL module for PHP
+ii  php8.0-zip                                       1:8.0.30-12+ubuntu24.04.1+deb.sury.org+1  amd64        Zip module for PHP
+ii  php8.1                                           8.1.31-1+ubuntu24.04.1+deb.sury.org+1     all          server-side, HTML-embedded scripting language (metapackage)
+ii  php8.1-cli                                       8.1.31-1+ubuntu24.04.1+deb.sury.org+1     amd64        command-line interpreter for the PHP scripting language
+ii  php8.1-common                                    8.1.31-1+ubuntu24.04.1+deb.sury.org+1     amd64        documentation, examples and common module for PHP
+ii  php8.1-fpm                                       8.1.31-1+ubuntu24.04.1+deb.sury.org+1     amd64        server-side, HTML-embedded scripting language (FPM-CGI binary)
+ii  php8.1-opcache                                   8.1.31-1+ubuntu24.04.1+deb.sury.org+1     amd64        Zend OpCache module for PHP
+ii  php8.1-readline                                  8.1.31-1+ubuntu24.04.1+deb.sury.org+1     amd64        readline module for PHP
+ii  php8.3                                           8.3.17-1+ubuntu24.04.1+deb.sury.org+1     all          server-side, HTML-embedded scripting language (metapackage)
+ii  php8.3-bz2                                       8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        bzip2 module for PHP
+ii  php8.3-cli                                       8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        command-line interpreter for the PHP scripting language
+ii  php8.3-common                                    8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        documentation, examples and common module for PHP
+ii  php8.3-curl                                      8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        CURL module for PHP
+ii  php8.3-fpm                                       8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        server-side, HTML-embedded scripting language (FPM-CGI binary)
+ii  php8.3-gd                                        8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        GD module for PHP
+ii  php8.3-intl                                      8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        Internationalisation module for PHP
+ii  php8.3-mbstring                                  8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        MBSTRING module for PHP
+ii  php8.3-mcrypt                                    3:1.0.5-4ubuntu1                          amd64        PHP bindings for the libmcrypt library
+ii  php8.3-mysql                                     8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        MySQL module for PHP
+ii  php8.3-opcache                                   8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        Zend OpCache module for PHP
+ii  php8.3-readline                                  8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        readline module for PHP
+ii  php8.3-sqlite3                                   8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        SQLite3 module for PHP
+ii  php8.3-xml                                       8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        DOM, SimpleXML, XML, and XSL module for PHP
+ii  php8.3-zip                                       8.3.17-1+ubuntu24.04.1+deb.sury.org+1     amd64        Zip module for PHP
+ii  phpmyadmin                                       4:5.2.1+dfsg-3                            all          MySQL web administration tool
